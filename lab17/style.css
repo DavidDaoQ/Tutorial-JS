@@ -1,0 +1,13 @@
+#heading {
+  color: red;
+  text-transform: uppercase;
+}
+
+.para {
+  color: blue;
+  font-size: 20px;
+}
+
+.text-bold {
+  font-weight: bolder;
+}

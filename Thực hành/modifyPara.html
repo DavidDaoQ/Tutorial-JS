@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modify Paragraph</title>
+  </head>
+
+  <body>
+    <p id="text">JavaScript Excercise</p>
+    <div>
+      <button id="jsstyle" onclick="js_style()">Style</button>
+    </div>
+    <script>
+      function js_style() {
+        document.getElementById("text").style.color = "red";
+        document.getElementById("text").style.fontSize = "20px";
+        document.getElementById("text").style.fontFamily = "Comic Sans MS";
+        document.getElementById("text").innerHTML = "Hello World!";
+      }
+    </script>
+  </body>
+</html>
